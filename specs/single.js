@@ -7,7 +7,11 @@ describe('Add todo Lists', function () {
 
         browser.get('https://lambdatest.github.io/sample-todo-app/');
 
-	browser.driver.findElement(by.name('li1')).then(function (foundElement) {
+// 	browser.driver.findElement(by.name('li1')).then(function (foundElement) {
+//                 foundElement.click();
+//             });
+	    
+	    browser.driver.findElement(by.name('li')).then(function (foundElement) {
                 foundElement.click();
             });
 
